@@ -26,13 +26,13 @@ There are no View-Models or Views in this app as this app has only a sinlge View
 
 
 ### 2. Approach
-My approch to this problem was to keep it Object Oriented. And the main object, needed by this app, is the Signal Model.
-Each Signal Model has a Status variable, that keeps track of the current status of its lights. Red, Amber or Green.
-Each Signal Model has an Image View, which holds the Image for its current status.
+- My approch to this problem was to keep it Object Oriented. And the main object, needed by this app, is the Signal Model.
+- Each Signal Model has a Status variable, that keeps track of the current status of its lights. Red, Amber or Green.
+- Each Signal Model has an Image View, which holds the Image for its current status.
 
-Each Signal Model has two methods:
-    One to activate a Signal i.e Go from Red Signal to Green.
-    Another to deactivate a Signal i.e. Go from Green to Red. The deactivate method, goes from Green to Red instantly and then waits for 5 seconds before going to Red.
+- Each Signal Model has two methods:
+    -- One to activate a Signal i.e Go from Red Signal to Green.
+    -- Another to deactivate a Signal i.e. Go from Green to Red. The deactivate method, goes from Green to Red instantly and then waits for 5 seconds before going to Red.
 
 
 ### 3. User Interface Design
